@@ -1,5 +1,7 @@
 # Devuan Repository for XLibre
 
+**PLEASE READ**: If you are using Devuan Stable (Excalibur), you HAVE to enable [backports](http://deb.devuan.org/merged/dists/daedalus-backports/).
+
 ```sh
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl
