@@ -1461,21 +1461,21 @@ Description: debug symbols for xserver-xlibre-video-fbdev
 Build-Ids: 656fcf42b086985953efe115898707e1f1042435
 
 Package: xserver-xlibre-video-intel
-Version: 3:25.0.1-1
+Version: 3:25.0.2-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 3249
-Depends: libc6 (>= 2.38), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.62), libpciaccess0 (>= 0.8.0+git20071002), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.2), libxrender1 (>= 1:0.9.12), libxss1, libxtst6 (>= 2:1.2.5), libxvmc1 (>= 2:1.0.12), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.62), libpciaccess0 (>= 0.8.0+git20071002), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.2), libxrender1 (>= 1:0.9.12), libxss1, libxtst6 (>= 2:1.2.5), libxvmc1 (>= 2:1.0.12), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-intel
-Provides: xlibre-driver-video, xserver-xorg-video-intel (= 3:25.0.1-1)
+Provides: xlibre-driver-video, xserver-xorg-video-intel (= 3:25.0.2-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/testing/x/xserver-xlibre-video-intel/xserver-xlibre-video-intel_25.0.1-1_amd64.deb
-Size: 1657792
-SHA256: 0fd1b5bd29d9729b724d1f32042a4fa25dbfeb354e5e9d48cf3600097257b3b6
-SHA1: c8f67ad299d6f44628e38dc8da6eadc08bc0454e
-MD5sum: 73dcff360a20d329430df0bdd5b862cf
+Filename: pool/testing/x/xserver-xlibre-video-intel/xserver-xlibre-video-intel_25.0.2-1_amd64.deb
+Size: 1657248
+SHA256: a985293c1e28ed4b46cafe7cf2f7a29a86d7cc9a6466fb2bc9a5de80b78ecad6
+SHA1: 3b2f2fdf42ef75c3fc891e25aa577297e104c50b
+MD5sum: be5c8e33c6fbc4f70203df770ef502fb
 Description: XLibre X server -- Intel i8xx, i9xx display driver
  This package provides the driver for the Intel i8xx and i9xx family
  of chipsets, including i810, i815, i830, i845, i855, i865, i915, i945
@@ -1492,21 +1492,21 @@ Description: XLibre X server -- Intel i8xx, i9xx display driver
 
 Package: xserver-xlibre-video-intel-dbgsym
 Source: xserver-xlibre-video-intel
-Version: 3:25.0.1-1
+Version: 3:25.0.2-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 3091
-Depends: xserver-xlibre-video-intel (= 3:25.0.1-1)
+Installed-Size: 3095
+Depends: xserver-xlibre-video-intel (= 3:25.0.2-1)
 Priority: optional
 Section: debug
-Filename: pool/testing/x/xserver-xlibre-video-intel/xserver-xlibre-video-intel-dbgsym_25.0.1-1_amd64.deb
-Size: 2964580
-SHA256: 60615f9dbce6610fc169fcb6d9658dd53bc440efc57a1fc574f166a03c209e9a
-SHA1: d42fa02f6358fe153045fbe3c5652f993c8d6e8d
-MD5sum: 43c32cf2928ad506088a76211308dfae
+Filename: pool/testing/x/xserver-xlibre-video-intel/xserver-xlibre-video-intel-dbgsym_25.0.2-1_amd64.deb
+Size: 2968368
+SHA256: 53c3185463ddaa5d718196ea8bf93d1f0b02057cedfa5d78398602cd4b82b5d3
+SHA1: 09c94ffc7d660c0935c58e8d96c96208307b7857
+MD5sum: 219aefd59d64523e309aaee6114fe5f8
 Description: debug symbols for xserver-xlibre-video-intel
-Build-Ids: 80c34224bb285ae91030efdf059549fd2cb956a8 a115a90d4d3f3712f3fc488114734be1643d4202 a497401ef475b1b3cfc1dcd857e33227dffe1ec4 b4bbf12fd63ea343d8da54c17dc4003405f4ca54 c364ada32874793a04594aa660be78d1bc0324f5
+Build-Ids: 7588f16007461763b3ab2eb46aa3b5cb36e740d5 7a5c21e67f0e2b722cd4a279ae70be408a0563db 96fae20d64d214efbe4f69c357508ca3f441972c ce9ba7d1663036a3e00bafeab68054ebf11dd649 d80877b59d8851004a530ab8a751612427b8e9fc
 
 Package: xserver-xlibre-video-nouveau
 Version: 2:25.0.0-1
