@@ -15,7 +15,7 @@ Types: deb
 URIs: https://xlibre-debian.github.io/devuan/
 Suites: main
 Components: stable
-Architectures: amd64
+Architectures: amd64 arm64
 Signed-By: /usr/share/keyrings/NexusSfan.pgp
 EOF
 
